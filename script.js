@@ -136,15 +136,25 @@
 // }
 // let bmw=new car();
 
-class user{
-    constructor(name,email){
-        this.name=name;
-        this.email=email;
-    }
-    viewData(){
-        console.log("data of user");
-    }
-}
-let stud=new user("priyanka","asfsdgf");
+// let data="here some data";
+// class user{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewData(){
+//         console.log("data of user", data);
+//     }
+// }
+// let stud=new user("priyanka","asfsdgf");
 
-console.log("Done")
+// class Admin extends user{
+//     constructor(name,email){
+//         super(name,email);
+//     }
+//     addData(){
+//         data="some new data added";
+//     }
+// }
+// let admin=new Admin("grhh","sgdgdh");
+

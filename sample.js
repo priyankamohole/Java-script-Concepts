@@ -47,6 +47,3 @@ console.log(color);*/
 // let age=5;
 // let result= age>=18 ? "adult" : "not adult";
 // console.log(result);
-
-// classes and objects
-
