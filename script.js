@@ -126,12 +126,23 @@
 //     console.log(curr);
 // })
 
-class car{
-    start(){
-        console.log("start");
+// class car{
+//     start(){
+//         console.log("start");
+//     }
+//     stop(){
+//         console.log("stop");
+//     }
+// }
+// let bmw=new car();
+
+class user{
+    constructor(name,email){
+        this.name=name;
+        this.email=email;
     }
-    stop(){
-        console.log("stop");
+    viewData(){
+        console.log("data of user");
     }
 }
-let bmw=new car();
+let stud=new user("priyanka","asfsdgf");
