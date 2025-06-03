@@ -146,3 +146,5 @@ class user{
     }
 }
 let stud=new user("priyanka","asfsdgf");
+
+console.log("Done")
